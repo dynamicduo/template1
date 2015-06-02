@@ -5,6 +5,10 @@ $(window).load(function(){
 		$('.slidebox:first').css("-moz-transform","translateX(1800px)");
 		$('.slidebox:first').css("-o-transform","translateX(1800px)"); */
 		var entity=$('.slidebox img:last');
+		entity.css("transform","translateX(2000px)");
+		entity.css("-webkit-transform","translateX(2000px)");
+		entity.css("-moz-transform","translateX(2000px)");
+		entity.css("-o-transform","translateX(2000px)");
 		entity.fadeOut('fast',function(){
 			$(this).remove();
 		});

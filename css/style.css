@@ -67,10 +67,10 @@ width: 100%;
   top: 0;
   left: 0;
   width: 100%;
-  transition:all 0.2s;
-  -webkit-transition:all 0.2s;
-  -moz-transition:all 0.2s;
-  -o-transition:all 0.2s;
+  transition:all 0.8s;
+  -webkit-transition:all 0.8s;
+  -moz-transition:all 0.8s;
+  -o-transition:all 0.8s;
 }
 
 @media screen and (min-width: 600px) {
