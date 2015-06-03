@@ -65,6 +65,13 @@ nav ul li a:hover
 {
   color: rgb(16, 150, 123);
 }
+nav ul li span
+{
+  font-size: 1.2em;
+  margin: auto 8px;
+  color: rgb(32, 173, 119);
+}
+
 .nav
 {
   position: fixed;
