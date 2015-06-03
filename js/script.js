@@ -16,7 +16,7 @@ $(window).load(function(){
 		$('.slidebox:first').prepend("<img src='"+src+"' >");
 
 
-	},5000);
+	},8000);
 
 
 	$('.menubtn').click(function(){
