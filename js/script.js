@@ -19,5 +19,13 @@ $(window).load(function(){
 	},5000);
 
 
+	$('.menubtn').click(function(){
+		$(this).toggleClass("rotz");
+		$('.wrapper').toggleClass("showmenu");
+		$('nav').toggleClass("zindex10");
+
+	});
+
+
 
 })

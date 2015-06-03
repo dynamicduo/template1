@@ -4,23 +4,43 @@
 <title> Template 1 </title>
 <link rel="stylesheet" type="text/css" href="css/style.css">
 <link href='http://fonts.googleapis.com/css?family=Open+Sans' rel='stylesheet' type='text/css'>
+<link rel="stylesheet" type="text/css" href="css/font-awesome.min.css">
 
 <script type="text/javascript" src="js/jquery-1.10.2.min.js"></script>
 <script type="text/javascript" src="js/skel.min.js"></script>
+<script type="text/javascript" src="js/jquery.chaffle.min.js"></script>
 <script type="text/javascript" src="js/script.js"></script>
 <script type="text/javascript">
 </script>
+<script type="text/javascript">
+    $(document).ready(function() {
+    $('.chaffle').chaffle({
+      speed: 10,
+      time: 90
+    });
+    });     
+</script>
 
 </head>
-<body class="news">
+<body>
+<nav>
+      <ul>
+        <li><a href="" class="chaffle" data-lang="en">Home</a></li>
+        <li><a href="" class="chaffle" data-lang="en">About</a></li>
+        <li><a href="" class="chaffle" data-lang="en">Works</a></li>
+        <li><a href="" class="chaffle" data-lang="en">Contacts</a></li>
+        <li><a href="" class="chaffle" data-lang="en">Blog</a></li>
+        
+        
+      </ul>
+    </nav>
+  <div class="wrapper">
   <header>
+    
     <div class="nav">
       <ul>
-        <li class="home"><a href="#">Home</a></li>
-        <li class="tutorials"><a class="active" href="#">Tutorials</a></li>
-        <li class="about"><a href="#">About</a></li>
-        <li class="news"><a href="#">Newsletter</a></li>
-        <li class="contact"><a href="#">Contact</a></li>
+        <li><a><span class="fa fa-bars menubtn"></span></a></li>
+        <li class="home"><a href="#">Title</a></li>
       </ul>
     </div>
   </header>
@@ -50,5 +70,6 @@
   	
 
   </footer>
+  </div>
 </body>
 </html>
